@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/main.css">
+
+    <!-- Link Responsividade -->
+    <link rel="stylesheet" href="./Style/responsive.css">
+
+    <!--Link Owl css -->
+    <link rel="stylesheet" href="./Style/OwlPlugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Style/OwlPlugin/owl.theme.default.min.css">
+
+    <title>Anime Network</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+             <h2 class="logo">ANIME NETWORK</h2>
+             <nav>
+                 <a href="#">Home</a>
+                 <a href="#">Lançamentos</a>
+                 <a href="#">Explore</a>
+                 <a href="#">Sobre</a>
+             </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">JUJUTSU KAISEN</h3>
+                <p class="descricao">Yuuji Itadori é um estudante do ensino médio que vive em Sendai com seu avô. Ele evita regularmente a equipe de pista
+                devido à sua aversão ao atletismo, apesar de seu talento inato para o esporte.</p>
+                <div class="botoes">
+                    <button onclick="redirecionar()" role="button" class="botao" id="botao_assistir">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" id="botao_info">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>   
+        </div>
+    </main>
+    <!-- Carrosel de imagens -->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+         <div class="item">
+             <img class="box-filme" src="./img/Bleach.png" alt="" srcset=""> 
+         </div>
+         <div>
+            <img class="box-filme" src="./img/naruto-classico.png" alt="" srcset="">
+         </div>
+        <div>
+            <img class="box-filme" src="./img/GTO.png" alt="" srcset="">
+        </div>
+        <div>
+            <img class="box-filme" src="./img/dragon_ball_super.png" alt="" srcset="">
+        </div>
+        <div>
+            <img class="box-filme" src="./img/Dr_Stone.png" alt="" srcset="">
+        </div>
+
+        
+    
+    </div>
+
+    <!-- Side BAR HTML-->
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/87fc09c963.js" crossorigin="anonymous"></script>
+    <!--Link Owl JS -->
+    <script src="JS/OwlPluginJS/jquery.min.js"></script>
+    <script src="JS/OwlPluginJS/owl.carousel.min.js"></script>
+    <script src="JS/setupowl.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
